@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sales_bss *.css
+recursive-include sales_bss *.csv
+recursive-include sales_bss *.html
+recursive-include sales_bss *.ico
+recursive-include sales_bss *.js
+recursive-include sales_bss *.json
+recursive-include sales_bss *.md
+recursive-include sales_bss *.png
+recursive-include sales_bss *.py
+recursive-include sales_bss *.svg
+recursive-include sales_bss *.txt
+recursive-exclude sales_bss *.pyc
